@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Stars 10 - Inicio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://i.ibb.co/ZzZNFQ5G/Picsart-25-07-13-20-57-30-803.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px hotpink, 0 0 20px fuchsia;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 5px deeppink;
+    }
+    button {
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #ff1493, #ff69b4);
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #ff69b4;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    button:hover {
+      background: linear-gradient(90deg, #ff69b4, #ff1493);
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <h1>She done already done had herses! 💅</h1>
+  <p>Bienvenid@ a All Stars 10 - ¡Comencemos la temporada!</p>
+  <button id="startSeason">Iniciar Temporada</button>
+
+  <script>
+    document.getElementById('startSeason').addEventListener('click', () => {
+      // Aquí puedes poner la lógica para redirigir, por ejemplo:
+      window.location.href = 'select-queen.html'; // o la página que tengas para seleccionar reinas
+    });
+  </script>
+</body>
+</html>
